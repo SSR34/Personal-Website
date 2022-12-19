@@ -1,0 +1,39 @@
+/* body{
+
+  font-family: 'Montserrat', sans-serif;
+} */
+
+
+
+.title {
+  background-image: radial-gradient(circle at center right, rgb(102, 218, 252),rgb(34, 111, 221));
+
+  /* background-image: radial-gradient(circle at center center, rgb(234, 238, 79),rgb(250, 124, 72)); */
+
+
+}
+
+.navbar{
+  padding-bottom: 3.5rem;
+
+}
+
+
+.navbar-brand{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 3rem !important;
+  line-height: 1.5;
+
+
+}
+.container-fluid{
+
+padding: 1% 15% !important;
+}
+
+h1 {
+  font-family: "Montserrat-black" ;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}

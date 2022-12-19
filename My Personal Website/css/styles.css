@@ -1,0 +1,229 @@
+body {
+  color:#40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 6.6rem;
+  line-height: 1;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 20px;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+
+border:dotted grey 6px;
+border-bottom: none;
+width: 4%;
+margin:50px auto;
+
+}
+
+a{
+  color:grey;
+  font-family:'Montserrat', sans-serif;
+  margin:10px 20px;
+  text-decoration: none;
+}
+
+/* ---------------------------Container One--------------------------------- */
+
+.containerOne {
+  background-color:#caf0f8;
+  position: relative;
+}
+
+
+/* --------------------------Container Two---------------------------------- */
+
+.containerTwo{
+
+  background: linear-gradient(0deg, #48cae4, #caf0f8 60%) ;
+
+
+}
+.intro{
+  padding-top: 30px;
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  left: 100px;
+  top: 400px;
+}
+
+.top-cloud {
+  padding-top:60px;
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.btn {
+
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.btn:hover{
+  background:#30e3cb;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #2bc4ad);
+  background-image: -o-linear-gradient(top, #3cb0fd, #2bc4ad);
+  background-image: linear-gradient(to bottom, #3cb0fd, #2bc4ad);
+  text-decoration: none;
+
+}
+
+/*  --------------------------Container Three------------------------------- */
+
+
+.containerThree{
+
+  background: linear-gradient(0deg, #caf0f8,#48cae4 15%) ;
+}
+
+.profile{
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.hello{
+  color: #caf0f8;
+}
+
+
+.paragraph{
+  color: #caf0f8;
+  text-align: center;
+}
+/*  --------------------------Container Four-------------------------------- */
+
+
+.containerFour{
+
+  background: linear-gradient(0deg, #48cae4 ,#caf0f8 20%) ;
+  padding-bottom: 100px;
+}
+
+
+
+
+.cardholder{
+  display: inline-flex;
+
+
+}
+.maincontainer{
+  position: relative;
+  width: 250px;
+  height:320px;
+  margin: 30px;
+}
+
+.thecard{
+  position:absolute;
+  width:100%;
+  height:100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+
+
+}
+
+.thecard:hover{
+  transform:rotateY(180deg);
+}
+
+
+.thefront{
+
+  position: absolute;
+  border-radius: 50px;
+  box-shadow: inset -5px 5px 15px #0ea3c8, inset 5px -5px 15px #0ea3c8;
+  width: 100%;
+  height:100%;
+  backface-visibility: hidden;
+  background-image
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.theback{
+
+  position: absolute;
+  border-radius: 50px;
+  box-shadow: inset -5px 5px 15px #0ea3c8, inset 5px -5px 15px #0ea3c8;
+  width: 100%;
+  height:100%;
+  backface-visibility: hidden;
+  background: #48cae4;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  transform:rotateY(180deg);
+
+}
+
+.computer{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.skills{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+/*  --------------------------Container Five-------------------------------- */
+
+.containerFive{
+
+  background-color: #48cae4;
+
+}
